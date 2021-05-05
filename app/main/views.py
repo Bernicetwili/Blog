@@ -17,7 +17,7 @@ def index():
     blogs = Blogs.query.order_by(Blogs.date.desc()).all()
 
 
-    title= "Emdee's Blog"
+    title= " Blog"
     return render_template('index.html',title=title, blogs=blogs)
 
 @main.route('/user/<uname>')
