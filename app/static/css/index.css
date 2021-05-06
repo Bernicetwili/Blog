@@ -1,3 +1,5 @@
-.h1 {
-    font-family: 'Indie Flower', cursive;
-  }
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap');
+* {
+  box-sizing: border-box;
+  font-family: "Orelega One", cursive;
+  
